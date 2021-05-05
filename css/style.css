@@ -1,0 +1,173 @@
+h1 {
+	text-shadow: 3px 3px 5px black;
+}
+
+.head_logo {
+	margin-left: 90px;
+}
+
+.head_options{
+	display: flex;
+	width: 1905px;
+	font-size: x-large;
+	background-color: #ffb764;
+	margin-left: -10px;
+	color: #ffffff;
+}
+
+.header_options {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header_options:hover {
+	color: red;
+}
+
+.options {
+	display: flex;
+	justify-content: space-between;
+	width: 1250px;
+	font-family: Montserrat-Bold, serif;
+	font-size: x-large;
+	text-shadow: 3px 3px 8px black;
+	margin-left: 70px;
+	margin-top: 45px;
+}
+
+.head_panel{
+	display: flex;
+	background: url('../pictures/third_head_pic_blur.jpg') center/cover no-repeat;
+	height: 500px;
+	width: 1650px;
+	align-items: center;
+	margin: auto;
+}
+
+.head_description {
+	font-family: Montserrat-Bold, serif;
+	font-size: larger;
+    color: #ffffff;
+	display: flex;
+	margin: 10% auto;
+	text-align: center;
+}
+
+.catalog_description {
+	display: flex;
+	background-color: #151515;
+	padding-left: 90px;
+	font-family: Montserrat-Bold;
+	color: #ffffff;
+	width: 1815px;
+	margin-left: -10px;
+}
+
+.catalog_offer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-family: Montserrat-Regular;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.offer_description hr {
+	width: 95%;
+}
+
+.offer {
+	width: 800px;
+	display: flex;
+	background-color: #F2F2F2;
+	box-shadow: 0px 0px 15px #595959;
+	margin-top: 20px;
+}
+
+.offer:hover {
+	background-color: #ffb764;
+	cursor: pointer;
+}
+
+.offer_img img {
+	border-color: black;
+}
+
+.offer_header{
+	font-family: Montserrat-Bold;
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.offer_subheader{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 75%;
+}
+
+.predfooter_panel {
+	display: flex;
+	width: 1905px;
+	margin-top: 25px;
+	margin-left: -10px;
+	height: 25px;
+	background-color: #151515;
+}
+
+.footer_panel {
+	display: flex;
+	background-color: #ffb764;
+	width: 1905px;
+	height: 100px;
+	margin-left: -10px;
+}
+
+.footer_description {
+	display: flex;
+	justify-content: space-around;
+	font-family: Montserrat-Bold;
+	font-size: larger;
+	width: 1905px;
+	height: 100px;
+	margin-left: 25px;
+}
+
+.turkmenstroy_site {
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 3px 3px 8px black;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+.footer_about_info {
+	text-shadow: 3px 3px 8px black;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.footer_turkmen_logo {
+	display: flex;
+	margin-left: 50px;
+}
+
+.footer_turkmen_logo img {
+	height: 100%;
+	width: 80%;
+}
+
+.turkmenstroy_site:hover {
+	color: red;
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
